@@ -20,7 +20,7 @@ class InspectorTab(ctk.CTkFrame):
         solved_num_label = ctk.CTkLabel(master, text = '')
         tried_num_label = ctk.CTkLabel(master, text = '')
 
-        user_entry = ctk.CTkEntry(master, placeholder_text = "si daca nu vreau ce faci")
+        user_entry = ctk.CTkEntry(master, placeholder_text = "Introdu usernameul utilizatorului dorit")
         user_button = ctk.CTkButton(
             master, 
             text = "Cauta", 
